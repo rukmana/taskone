@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nanark.taskone.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@drawable/background">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="@string/income"
+                android:inputType="number"
+                android:textSize="50dp" />
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:ems="10"
+                android:hint="@string/outcome"
+                android:inputType="number"
+                android:textSize="50dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/editText2"
+                android:layout_marginTop="200dp"
+                android:text="@string/balance"
+                android:textSize="50dp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="200dp"
+                android:hint="@string/val"
+                android:textSize="50dp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="270dp">
+
+                <android.support.design.widget.CoordinatorLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/fab"
+                        android:layout_width="87dp"
+                        android:layout_height="68dp"
+                        android:layout_gravity="center|left"
+                        android:layout_margin="@dimen/fab_margin"
+                        android:layout_marginTop="50dp"
+                        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+                </android.support.design.widget.CoordinatorLayout>
+
+
+            </FrameLayout>
+
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_tbl1"
+                    style="@style/satu1"
+                    android:text="@string/satu" />
+
+                <Button
+                    android:id="@+id/btn_tbl2"
+                    style="@style/dua1"
+                    android:text="@string/dua" />
+
+                <Button
+                    android:id="@+id/btn_tbl3"
+                    style="@style/tiga1"
+                    android:text="@string/tiga" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="105dp">
+
+                <Button
+
+                    android:id="@+id/butto5"
+                    style="@style/empat1"
+                    android:text="@string/empat" />
+
+                <Button
+                    android:id="@+id/button6"
+                    style="@style/lima1"
+                    android:text="@string/lima" />
+
+                <Button
+                    android:id="@+id/button7"
+                    style="@style/enam1"
+                    android:text="@string/enam" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="210dp">
+
+                <Button
+
+                    android:id="@+id/button9"
+                    style="@style/tujuh1"
+                    android:text="@string/tujuh" />
+
+                <Button
+                    android:id="@+id/button10"
+                    style="@style/delapan1"
+                    android:text="@string/delapan" />
+
+                <Button
+                    android:id="@+id/button11"
+                    style="@style/sembilan1"
+                    android:text="@string/sembilan" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="315dp">
+
+                <Button
+
+                    android:id="@+id/button13"
+                    style="@style/titik1"
+                    android:text="@string/titik" />
+
+                <Button
+                    android:id="@+id/button14"
+                    style="@style/nol1"
+                    android:text="@string/nol" />
+
+                <Button
+                    android:id="@+id/button15"
+                    style="@style/hapus1"
+                    android:text="@string/hapus" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

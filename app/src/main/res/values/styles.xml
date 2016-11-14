@@ -1,0 +1,184 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="satu">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="dua">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="tiga">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="tambah">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="empat">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="lima">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="enam">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="kurang">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="tujuh">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="delapan">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="kali">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="sembilan">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">80dp</item>
+    </style>
+
+    <style name="titik">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+    <style name="nol">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+    <style name="jumlah">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+    <style name="bagi">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+
+    <style name="hapus">
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_height">60dp</item>
+    </style>
+    <style name="satu1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="dua1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="tiga1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="tambah1">
+        <item name="android:layout_width">195dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="empat1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="lima1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="enam1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="kurang1">
+        <item name="android:layout_width">195dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="tujuh1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="delapan1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="kali1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="sembilan1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="titik1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="nol1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="jumlah1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="bagi1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+    <style name="hapus1">
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">110dp</item>
+    </style>
+
+
+    <style name="flo">flo</style>
+
+
+</resources>

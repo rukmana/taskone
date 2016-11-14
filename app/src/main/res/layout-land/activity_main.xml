@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nanark.taskone.MainActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:weightSum="1"
+            android:layout_marginLeft="30dp">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:hint="@string/income"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="10dp"
+                android:id="@+id/editText"
+                android:layout_alignParentEnd="true" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="@string/outcome"
+                android:ems="10"
+                android:layout_marginTop="10dp"
+                android:id="@+id/editText2"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true" />
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:text="@string/balance"
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/editText2"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/textView"
+                    android:layout_alignParentStart="true" />
+
+                <TextView
+                    android:text="@string/val"
+                    android:textSize="30dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/editText2"
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/textView1"
+                    android:layout_alignParentStart="true" />
+
+
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <android.support.design.widget.CoordinatorLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <android.support.design.widget.FloatingActionButton
+                        android:id="@+id/fab"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom|end"
+                        android:layout_margin="@dimen/fab_margin"
+                        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+                </android.support.design.widget.CoordinatorLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:text="@string/satu"
+                        android:id="@+id/btn_tbl1"
+                        style="@style/satu" />
+
+                    <Button
+                        android:text="@string/dua"
+                        android:id="@+id/btn_tbl2"
+                        style="@style/dua" />
+
+                    <Button
+                        android:text="@string/tiga"
+                        android:id="@+id/btn_tbl3"
+                        style="@style/tiga" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="75dp">
+
+                    <Button
+
+                        android:text="@string/empat"
+                        style="@style/empat"
+                        android:id="@+id/butto5" />
+
+                    <Button
+                        android:text="@string/lima"
+                        style="@style/lima"
+                        android:id="@+id/button6" />
+
+                    <Button
+                        android:text="@string/enam"
+                        style="@style/enam"
+                        android:id="@+id/button7" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="150dp">
+                    <Button
+
+                        android:text="@string/tujuh"
+                        style="@style/tujuh"
+                        android:id="@+id/button9" />
+
+                    <Button
+                        android:text="@string/delapan"
+                        style="@style/delapan"
+                        android:id="@+id/button10" />
+
+                    <Button
+                        android:text="@string/sembilan"
+                        style="@style/sembilan"
+                        android:id="@+id/button11" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="225dp">
+
+                    <Button
+
+                        android:text="@string/titik"
+                        style="@style/titik"
+                        android:id="@+id/button13" />
+
+                    <Button
+                        android:text="@string/nol"
+                        style="@style/nol"
+                        android:id="@+id/button14" />
+
+                    <Button
+                        android:text="@string/hapus"
+                        style="@style/hapus"
+                        android:id="@+id/button15" />
+
+                </LinearLayout>
+
+
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
